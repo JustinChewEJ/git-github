@@ -1,0 +1,16 @@
+https://stackoverflow.com/questions/7548661/git-github-cant-push-to-master
+https://stackoverflow.com/questions/33880832/github-ssh-key-claiming-it-is-not-used
+
+psuhu in again lol
+
+cmds 
+generate key id: $ssh-keygen
+auth port 443 to con to github: $ssh -T -p 443 git.ssh.github.com
+change repo: git checkout reponame
+set github url: $ git remote set-url origin https://github.com/JustinChewEJ/git-github.git
+see changes to be commited: $git status
+Pull everything in branch: git pull origin main
+Push all to repo: git push origin main
+                  git commit -a / git commit -m "name" (used only for 1 file)
+                  "opens vim.tiny to edit the update name,save changes: :wq! insert mode: shift+I"
+                  git push origin main
