@@ -7,7 +7,9 @@ cmds
 generate key id: $ssh-keygen
 auth port 443 to con to github: $ssh -T -p 443 git.ssh.github.com
 change repo: git checkout reponame
-set github url: $ git remote set-url origin https://github.com/JustinChewEJ/git-github.git
+set github url using https: $ git remote set-url origin https://github.com/JustinChewEJ/git-github.git
+remove https:               $ git remote remove origin 
+set github url through ssh: $ git remote add origin git@github.com:JustinChewEJ/git-github.git
 see changes to be commited: $git status
 Pull everything in branch: git pull origin main
 Push all to repo:    git push origin main
