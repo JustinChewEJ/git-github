@@ -4,7 +4,8 @@ https://stackoverflow.com/questions/33880832/github-ssh-key-claiming-it-is-not-u
 psuhu in again lol
 
 cmds 
-generate key id: $ssh-keygen
+generate key id: $ ssh-keygen
+get public key:  $ cat c/Users/Student/.ssh/id_rsa.pub
 auth port 443 to con to github: $ssh -T -p 443 git.ssh.github.com
 change repo: git checkout reponame
 set github url using https: $ git remote set-url origin https://github.com/JustinChewEJ/git-github.git
