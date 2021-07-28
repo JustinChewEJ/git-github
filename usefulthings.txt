@@ -10,7 +10,8 @@ change repo: git checkout reponame
 set github url: $ git remote set-url origin https://github.com/JustinChewEJ/git-github.git
 see changes to be commited: $git status
 Pull everything in branch: git pull origin main
-Push all to repo: git push origin main
-                  git commit -a / git commit -m "name" (used only for 1 file)
-                  "opens vim.tiny to edit the update name,save changes: :wq! insert mode: shift+I"
-                  git push origin main
+Push all to repo:    git push origin main
+Add file to staging: git add filename.extension
+Push to repo:        git commit -a / git commit -m "status name" (used only for 1 file)
+                     "opens vim.tiny to edit the update name,save changes: :wq! insert mode: shift+I"
+                     git push origin main
